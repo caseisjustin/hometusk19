@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Masala 2</title>
+</head>
+<body>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <h2>Email</h2>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="nameinput" placeholder="Your Name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="emailinput" placeholder="Your Email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+        </div>
+        <button type="submit" onclick="limitSet()">Send Message</button>
+      </form>
+</body>
+<script src="./masala2.js"></script>
+</html>
